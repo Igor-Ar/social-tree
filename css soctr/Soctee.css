@@ -1,0 +1,147 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+body{
+  background: #E5E5E5;
+}
+
+#titulo{
+  display: flex;
+  position: absolute;
+  left: 480px;
+  margin-bottom: auto;
+  border-style: outset;
+  border-width: 14px;
+  border-color: #1f023b;
+}
+.capa{
+  font-size: 40px;
+  font-family: 'Mukta', sans-serif;
+  color: #53032f;
+}
+
+.foto{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 619px;
+  top: 190px;
+}
+
+#perfil{
+  border-radius: 50%;
+}
+
+#insta{
+  position: absolute;
+  width: 99px;
+  height: 24px;
+  left: 669px;
+  top: 429px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1f023b;
+}
+
+#link1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 556px;
+  top: 486px;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+
+.gmail{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #10006d;
+}
+
+#link2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 556px;
+  top: 551px;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+
+.git{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#link3{
+  box-sizing: border-box;
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 556px;
+  top: 616px;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+
+.linkedin{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#contato{
+  display: flex;
+  position: absolute;
+  top: 780px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+#descricao{
+  top: 200px;
+  position: absolute;
+  border-width: 6px;
+  border-style: solid;
+  box-sizing: 40px;
+  display: grid;
+  width: 290px;
+  height: 400px;
+  background-color: #0dd9e7;
+}
+
+.perf{
+  font-size: 40px;
+}
+
+.descr{
+  font-family: 'Mukta', sans-serif;
+  padding-left: 10px;
+}
+
+#foguetin{
+  top: 200px;
+  left: 970px;
+  position: absolute;
+  background-color: #E5E5E5;
+}
